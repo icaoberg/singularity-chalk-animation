@@ -11,12 +11,19 @@ Run the script `build.sh` to build image locally.
 bash ./build.sh
 ```
 
-## Example
+### Example
 ```
 singularity exec singularity-chalk-animation-1.6.0.sif chalk-animation rainbow Hello world!
 ```
 
 ![Screenshot](/images/screenshot.png)
+
+## Alternative
+```
+spack install npm
+spack load npm
+npm install -g chalk-animation
+```
 
 ---
 [![PSC](http://www.andrew.cmu.edu/user/icaoberg/images/logos/psc.png)](http://www.psc.edu)
