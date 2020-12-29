@@ -1,7 +1,5 @@
 # chalk-animation
 
-![Screenshot](/images/screenshot.png)
-
 Singularity recipe for [chalk-animation-cli](https://github.com/bokub/chalk-animation).
 
 ## Building the image using the recipe
@@ -17,6 +15,8 @@ bash ./build.sh
 ```
 singularity exec singularity-chalk-animation-1.6.0.sif chalk-animation rainbow Hello world!
 ```
+
+![Screenshot](/images/screenshot.png)
 
 ---
 [![PSC](http://www.andrew.cmu.edu/user/icaoberg/images/logos/psc.png)](http://www.psc.edu)
